@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+font-family: "Karla", sans-serif;
+background-color: #e4e4e4;
+}
+.wraper {
+    background-color: #e4e4e4;
+    border: 1px solid e4e4e4;
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.header {
+height: 45vh;
+padding: 40px 0 0 90px;
+background-color: white;
+width: 99.5%;
+}
+
+.header h1 {
+color: hsl(179, 54%, 48%);
+font-size: 40px;
+}
+
+.header p {
+    color: #c3d859;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.header article {
+    color: #bbbec4;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px 0;
+    line-height: 40px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    height: 54vh;
+    width: 99.5%;
+}
+.main .head {
+background-color: #29b4b1;
+width: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding-left:90px;
+}
+.main h3 {
+    color: #edfbfb;
+    font-size: 30px;
+}
+.main .head p{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.main .head .dollar{
+    font-size: 25px;
+    color: #69d9da;
+    padding-left: 30px;
+}
+.main .head article {
+    color: #b8f3f5;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 45px;
+}
+.main button {
+    font-family: "Karla", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 1em 7em;
+    background-color: #bfdf32;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 5px 10px 25px 0px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+.main .bottom{
+    background-color: #48bfbd;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left:90px;
+
+}
+.main .bottom p {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+.main ul {
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #92dce2;
+    list-style: none;
+}
